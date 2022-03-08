@@ -4,7 +4,8 @@ module.exports = {
     fontFamily: {
       'vibes': 'Great Vibes',
       'amotic': 'Amatic SC',
-      'slop': 'Josefin Slab'
+      'slop': 'Josefin Slab',
+      'poppins': 'Poppins'
   },
     
   },

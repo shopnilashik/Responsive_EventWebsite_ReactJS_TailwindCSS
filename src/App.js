@@ -10,6 +10,8 @@ import Body from './Components/Body/Body';
 import Menubar from './Components/Menubar/Menubar';
 import Gallery from './Components/Gallery/Gallery';
 import Services from './Components/Services/Services';
+import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
 
 
 
@@ -22,8 +24,11 @@ function App() {
         <Route path='/footer' element={<Footer />} />
         <Route path='/footer' element={<Body />} />
         <Route path='/gallery' element={<Gallery />} />
-        <Route path='/services' element={<Services/>} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact/>} />
         <Route path='/menu' element={<Menubar />} />
+
        
         <Route path='/banner' element={<Banner slides={ SliderData }/>} />
         

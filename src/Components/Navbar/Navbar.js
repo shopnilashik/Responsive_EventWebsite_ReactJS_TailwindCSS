@@ -10,7 +10,7 @@ function Navbar(props) {
                 <img src={ logo } className=" h-32 object-center "/>
             </div>
          
-<nav class="bg-gray-100 border-gray-200 px-2 sm:px-4 py-2.5 divide-y ">
+<nav class=" bg-gray-100 border-gray-200 px-2 sm:px-4 py-2.5 divide-y ">
   <div class="container flex flex-wrap justify-center items-center mx-auto">
     
     <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
@@ -19,13 +19,13 @@ function Navbar(props) {
       <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
     </button>
 
-    <div class=" hidden md:block md:w-auto " id="mobile-menu">
+    <div class="hidden md:block md:w-auto " id="mobile-menu">
       <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium ">
         <li>
           <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent  md:p-0 dark:text-gray-400 dark:hover:text-gray-800" aria-current="page"><Link to="/home">Home</Link></a>
         </li>
         <li>
-          <a href="#" class="block py-2 pr-4 pl-3 text-gray-900 border-b border-gray-100 hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-gray-800 dark:hover:bg-gray-700 dark:hover:text-gray-800 md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+          <a href="#" class="block py-2 pr-4 pl-3 text-gray-900 border-b border-gray-100 hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-gray-800 dark:hover:bg-gray-700 dark:hover:text-gray-800 md:dark:hover:bg-transparent dark:border-gray-700"><Link to="/about">About</Link></a>
         </li>
         <li>
           <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-gray-800 dark:hover:bg-gray-700 dark:hover:text-gray-800 md:dark:hover:bg-transparent dark:border-gray-700"><Link to="/services">Services</Link></a>
@@ -34,7 +34,7 @@ function Navbar(props) {
           <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-gray-800 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"><Link to="/gallery">Gallery</Link></a>
         </li>
         <li>
-          <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-gray-800 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-gray-800 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><Link to="/contact">Contact</Link></a>
         </li>
       </ul>
     </div>
